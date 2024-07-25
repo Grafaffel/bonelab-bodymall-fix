@@ -14,7 +14,7 @@ function scanDirectory(dirPath) {
     return new Promise((resolve, reject) => {
         readdir(dirPath, (err, files) => {
             if (err) {
-                reject(`Unable to scan directory: ${err}`);
+                reject(`Unable to get Saves Directory: ${err}`);
             } else {
                 resolve(files);
             }
@@ -38,7 +38,7 @@ function readFileContent(filePath) {
     return new Promise((resolve, reject) => {
         readFile(filePath, 'utf8', (err, data) => {
             if (err) {
-                reject(`Unable to read file: ${err}`);
+                reject(`Unable to open file: ${err}`);
             } else {
                 resolve(data);
             }
@@ -52,6 +52,7 @@ scanDirectory(bonelabSavesDir)
         let latestTime = 0;
 
         for (const file of files) {
+            if (!file.startsWith('save_')) continue;
             const filePath = join(bonelabSavesDir, file);
             const stats = await fetchFileStats(filePath);
 
@@ -97,4 +98,11 @@ scanDirectory(bonelabSavesDir)
         } catch (error) {
             console.error(`Unable to write to save: ${error}`);
         }
+
+        console.log('If any Errors occurred, please open an issue on the GitHub Repository (https://github.com/Grafaffel/bonelab-bodymall-fix)');
+
+        console.log('Press any key to exit...');
+        process.stdin.setRawMode(true);
+        process.stdin.resume();
+        process.stdin.on('data', process.exit.bind(process, 0));
     })
