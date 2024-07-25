@@ -1,2 +1,12 @@
-# bonelab-bodymall-fix
- A workaround for the Avatar BodyMall Favorites Issue where the player gets stuck to the Bodymall,  unable to detatch or move if an avatar on their favorites list no longer exists.
+# Bonelab Bodymall fix
+
+A workaround for the Avatar BodyMall Favorites Issue where the player gets stuck to the Bodymall, unable to detatch or move if an avatar on their favorites list no longer exists.
+
+> [!WARNING]  
+> This is currently only compatible with the PCVR version of BONELAB. Support for Quest will be available soon.
+
+## Usage
+
+- Go to the [Releases](https://github.com/Grafaffel/bonelab-bodymall-fix/releases/latest)
+- Download the `.exe` File
+- Run the previously downloaded file
