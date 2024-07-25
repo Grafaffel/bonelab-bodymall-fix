@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { readdir, stat, readFile, writeFile, writeFileSync } from 'fs';
 import { join } from 'path';
 import { homedir } from 'os';
