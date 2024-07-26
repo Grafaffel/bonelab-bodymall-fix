@@ -1,4 +1,4 @@
-<img align="left" width="75" height="75" src="https://github.com/Grafaffel/bonelab-bodymall-fix/raw/main/assets/BL_icon.png">
+<img align="left" width="75" height="75" src="https://raw.githubusercontent.com/Grafaffel/bonelab-bodymall-fix/main/assets/BL_icon.png">
 
 # Bonelab Bodymall fix
 
