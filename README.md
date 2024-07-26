@@ -7,7 +7,7 @@ A workaround for the Avatar BodyMall Favorites Issue where the player gets stuck
 > Based on [Stress Level Zero's Video](https://www.youtube.com/watch?v=ia4IL-OgwOY)
 
 > [!WARNING]  
-> This is currently only compatible with the PCVR version of BONELAB. Support for Quest will be available soon.
+> This is currently only compatible with the PCVR version of BONELAB. Support for Quest might be available soon.
 
 ## Usage
 
