@@ -1,8 +1,13 @@
-#!/usr/bin/env node
+const fs = require('fs');
+const path = require('path');
+const os = require('os');
 
-import { readdir, stat, readFile, writeFile, writeFileSync } from 'fs';
-import { join } from 'path';
-import { homedir } from 'os';
+const readdir = fs.readdir;
+const stat = fs.stat;
+const readFile = fs.readFile;
+const writeFileSync = fs.writeFileSync;
+const join = path.join;
+const homedir = os.homedir;
 
 const userDirectory = homedir();
 const bonelabSavesDir = join(userDirectory, 'AppData', 'LocalLow', 'Stress Level Zero', 'BONELAB', 'Saves');

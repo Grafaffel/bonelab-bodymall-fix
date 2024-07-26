@@ -8,3 +8,9 @@ A workaround for the Avatar BodyMall Favorites Issue where the player gets stuck
 
 > [!WARNING]  
 > This is currently only compatible with the PCVR version of BONELAB. Support for Quest will be available soon.
+
+## Usage
+
+- Go to the [Releases](https://github.com/Grafaffel/bonelab-bodymall-fix/releases/latest)
+- Download `BONELAB_BodyMall_Fix.exe` File
+- Run the previously downloaded file

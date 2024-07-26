@@ -1,11 +1,13 @@
 {
   "name": "bonelab-bodymall-fix",
   "version": "1.0.0",
-  "type": "module",
   "main": "index.js",
+  "scripts": {
+    "build": "node build.js && exit 1"
+  },
   "bin": "./index.js",
-  "keywords": [],
-  "author": "",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@angablue/exe": "^2.1.3"
+  }
 }
