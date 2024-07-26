@@ -14,5 +14,5 @@ A workaround for the Avatar BodyMall Favorites Issue where the player gets stuck
 ## Usage
 
 - Go to the [Releases](https://github.com/Grafaffel/bonelab-bodymall-fix/releases/latest)
-- Download `BONELAB_BodyMall_Fix.exe` File
+- Download `BONELAB_BodyMall_Fix.exe`
 - Run the previously downloaded file
